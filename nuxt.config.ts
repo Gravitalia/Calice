@@ -7,7 +7,7 @@ export default defineNuxtConfig({
             },
             charset: "utf-8",
             viewport: "width=device-width,initial-scale=1",
-            title: "Gravitalia",
+            title: "Gravitalia | Support",
             meta: [
                 { name: "description", content: "Helping you is our priority, Gravitalia" },
                 { name: "og:description", content: "Helping you is our priority, Gravitalia" },
@@ -29,6 +29,7 @@ export default defineNuxtConfig({
     ssr: true,
     modules: [
         "@nuxtjs/tailwindcss",
+        "@nuxt/content",
         /*["@nuxtjs/color-mode", {
             preference: 'system',
             fallback: 'light',
